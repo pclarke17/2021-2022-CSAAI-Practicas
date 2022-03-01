@@ -1,15 +1,41 @@
 
 h1{
-    padding: 0px;
-    margin: 5%;
+    padding: 1%;
+    margin: 0%;
     border: solid;
     border-color: yellow;
+    background-color: black;
+    width: 260px;
     }
 h2{
-padding: 0px;
-margin: 5%;
+padding: 1%;
+margin: 0%;
 border: solid;
 border-color: yellow;
-
-
+background-color: black;
+width: 260px;
 }
+
+p{
+padding: 1%;
+width: 260px;
+border: solid;
+border-color:white;
+}
+h3{
+    padding: 1%;
+    margin: 0%;
+    border: solid;
+    border-color: yellow;
+    background-color: black;
+    width: 260px;
+}
+h4{
+    padding: 1%;
+    margin: 0%;
+    border: solid;
+    border-color: yellow;
+    background-color: black;
+    width: 260px;
+}
+
