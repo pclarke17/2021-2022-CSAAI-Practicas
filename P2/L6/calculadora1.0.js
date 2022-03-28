@@ -133,7 +133,7 @@ division.onclick = () => {
 
 del.onclick = () => {
 
-display.innerHtml = digitos - digitos-1;
+display.innerHtml = digitos;
 
 }
 
