@@ -167,11 +167,7 @@ function increaseScore() {
     }
   }
 
-  function vidas (){
-    ctx.fillStyle = 'black';
-    ctx.fillText(String(lives)+' '+String(score),canvas.width/2,40);
-
-  }
+  
 /* Aparecen los ladrillos */
 function showAllBricks() {
     bricks.forEach(column => {
