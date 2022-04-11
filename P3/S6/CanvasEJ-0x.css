@@ -1,0 +1,47 @@
+
+/* Aquí haremos el estilo del breakout.
+Sus colores, su forma, su tamaño, etc... */
+
+body {
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+canvas {
+    background-color: aqua ;
+    display: block;
+    border-radius: 7px;
+    border-width: inherit;
+    border-style: solid;
+    border-width: 3px;
+    border-color: whitesmoke;
+}
+button{
+
+    display:block;
+    width: 70px;
+    height: 45px;
+    font-size: 25px;
+    background-color: rgb(231, 243, 153);
+    border-radius: 10%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
