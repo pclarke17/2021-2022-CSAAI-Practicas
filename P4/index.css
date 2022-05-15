@@ -27,7 +27,7 @@
     font-weight: lighter;
     font-size: larger;
     border: none;
-    border-color: rgb(255, 0, 0);
+    border-color: grey;
     border-style:groove;
     border-radius: 15px;
     font-family:'Times New Roman', Times, serif, bol;
@@ -44,7 +44,7 @@
     font-weight: lighter;
     font-size: larger;
     border: none;
-    border-color: rgb(0, 255, 0);
+    border-color: grey;
     border-style:groove;
     border-radius: 15px;
     font-family:'Times New Roman', Times, serif, bol;
@@ -60,7 +60,7 @@
     font-weight: lighter;
     font-size: larger;
     border: none;
-    border-color: rgb(0, 0, 255);
+    border-color: grey;
     border-style:groove;
     border-radius: 15px;
     font-family:'Times New Roman', Times, serif, bol;

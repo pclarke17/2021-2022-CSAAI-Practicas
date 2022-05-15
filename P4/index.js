@@ -61,6 +61,7 @@ img.onload = function () {
 deslizadorR.oninput = () => {
     range_value_red.innerHTML = deslizadorR.value;
     ctx.drawImage(img, 0,0);
+     //-- Obtener la imagen del canvas en pixeles
     let imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     let data = imgData.data
     colores(data);
@@ -70,6 +71,7 @@ deslizadorR.oninput = () => {
 deslizadorG.oninput = () => {
     range_value_green.innerHTML = deslizadorG.value;
     ctx.drawImage(img, 0,0);
+    //-- Obtener la imagen del canvas en pixeles
     let imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     let data = imgData.data
     colores(data);
@@ -78,6 +80,7 @@ deslizadorG.oninput = () => {
 deslizadorB.oninput = () => {
     range_value_blue.innerHTML = deslizadorB.value;
     ctx.drawImage(img, 0,0);
+    //-- Obtener la imagen del canvas en pixeles
     let imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     let data = imgData.data
     colores(data);
@@ -115,26 +118,4 @@ colors.onclick = () => {
     deslizadorB.value= 255;
 }
 
-binario.onclick = () => {
 
-    imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    data = imgData.data;
-    document.getElementById("tabla").style.display = 'none';
-  
-    var pixel = imgData.data;
-    var bw = 240;
-    var binarizacion = 0;
-
-    for (let i = 0; i < data.length; i+=4) {
-      pixel = data[i];
-      if (pixel > bw) {
-        binarizacion = 255;
-      } else {
-        binarizacion = 0;
-      }
-      data[i] = binarizacion;
-      data[i+1] = binarizacion;
-      data[i+2] = binarizacion;
-    }
-    ctx.putImageData(imgData, 0, 0);
-}
