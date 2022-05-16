@@ -9,11 +9,11 @@
     font-weight: lighter;
     font-size: larger;
     border: none;
-    border-color: rgb(255, 255, 255);
-    border-style:groove;
+    border-color: yellow;
+    border-style: double;
     border-radius: 15px;
     font-family:'Times New Roman', Times, serif, bol;
-    margin-left: 2.05cm;
+    margin-left: 5cm;
 }
 
 
@@ -29,10 +29,11 @@
     font-size: larger;
     border: none;
     border-color: grey;
-    border-style:groove;
+    border-style: double;
     border-radius: 15px;
     font-family:'Times New Roman', Times, serif, bol;
     margin-left: 0.7cm;
+    
 }
 .desliz2{
     width: 150px;
@@ -46,7 +47,7 @@
     font-size: larger;
     border: none;
     border-color: grey;
-    border-style:groove;
+    border-style: double;
     border-radius: 15px;
     font-family:'Times New Roman', Times, serif, bol;
 }
@@ -62,13 +63,15 @@
     font-size: larger;
     border: none;
     border-color: grey;
-    border-style:groove;
+    border-style: double;
     border-radius: 15px;
     font-family:'Times New Roman', Times, serif, bol;
 }
 
 .deslizador{
     margin-left: 1.0cm;
+    font-style: normal;
+    color: white;
 }
 .titulo{
 
@@ -80,3 +83,9 @@
     color: ivory;
     margin-left: 1.8cm;
 }
+body {
+    background-image: url("fondo.jpg");
+    background-size: 1750px 1000px;
+    margin-left:15.5cm;
+    margin-top: 3cm;
+  }
