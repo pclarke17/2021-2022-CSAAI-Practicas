@@ -1,5 +1,5 @@
 .botones{
-    width: 70px;
+    width: 200px;
     height: 30px;
     cursor: pointer;
     text-align: center;
@@ -13,7 +13,7 @@
     border-style: double;
     border-radius: 15px;
     font-family:'Times New Roman', Times, serif, bol;
-    margin-left: 5cm;
+    margin-left: 2cm;
 }
 
 
@@ -32,7 +32,7 @@
     border-style: double;
     border-radius: 15px;
     font-family:'Times New Roman', Times, serif, bol;
-    margin-left: 0.7cm;
+    margin-left: 1cm;
     
 }
 .desliz2{
@@ -70,7 +70,7 @@
 
 .deslizador{
     margin-left: 1.0cm;
-    font-style: normal;
+    font-style: oblique;
     color: white;
 }
 .titulo{
