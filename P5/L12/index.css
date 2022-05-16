@@ -1,0 +1,93 @@
+#directo{
+    width: 400px;
+    height: 200px;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    border-color: rgb(255, 0, 0);
+    border-style:groove;
+    border-radius: 15px;
+}
+
+#video1{
+    width: 200px;
+    height: 100px;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    border-color: rgb(255, 0, 0);
+    border-style:groove;
+    border-radius: 15px;
+}
+
+#video2{
+    width: 200px;
+    height: 100px;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    border-color: rgb(255, 0, 0);
+    border-style:groove;
+    border-radius: 15px;
+}
+
+#parrafo {
+
+    background-color:rgb(255, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-style:groove;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif, bol;
+
+}
+
+#parrafo2 {
+
+    background-color:rgb(255, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-style:groove;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif, bol;
+
+}
+
+.boton{
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: larger;
+    border: none;
+    border-color: rgb(255, 0, 0);
+    border-style:groove;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif, bol;
+    margin-left: 0.9cm;
+
+}
+.boton2{
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: larger;
+    border: none;
+    border-color: rgb(255, 0, 0);
+    border-style:groove;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif, bol;
+    margin-left: 1.5cm;
+
+}
+
+body {
+    background-image: url("rea.jpg");
+    background-size: 1750px 1000px;
+    margin-left:17.5cm;
+    margin-top: 3cm;
+  }

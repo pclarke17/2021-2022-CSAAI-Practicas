@@ -16,7 +16,6 @@ const range_value_green = document.getElementById('range_value_green');
 
 const grises = document.getElementById('gris');
 const colors = document.getElementById('color');
-const binario = document.getElementById('binario');
 const negativo = document.getElementById('negativo');
 const tabla = document.getElementById('tabla');
 //-- Función de retrollamada de imagen cargada
@@ -115,29 +114,7 @@ colors.onclick = () => {
     deslizadorB.value= 255;
 }
 
-binario.onclick = () => {
 
-    imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    data = imgData.data;
-    document.getElementById("tabla").style.display = 'none';
-  
-    var pixel = imgData.data;
-    var bw = 240;
-    var binarizacion = 0;
-
-    for (let i = 0; i < data.length; i+=4) {
-      pixel = data[i];
-      if (pixel > bw) {
-        binarizacion = 255;
-      } else {
-        binarizacion = 0;
-      }
-      data[i] = binarizacion;
-      data[i+1] = binarizacion;
-      data[i+2] = binarizacion;
-    }
-    ctx.putImageData(imgData, 0, 0);
-}
 
 
 
