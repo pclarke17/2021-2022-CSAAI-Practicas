@@ -5,7 +5,7 @@ Se mostrarán dos imágenes, la imagen original y la modificada.
 
 Sobre la original podremos cambiar las intensidades de las componentes RGB mediante los deslizadores que se muestran por pantalla.
 
-También, presionando los botones 'gris' y 'binario', podremos ver la imagen en grises y umbralizada respectivamente.
+También, presionando los botones 'gris', podremos ver la imagen en grises.
 
 Nota: Para la imagen umralizada se ha establecido un umbral de 240.
 
