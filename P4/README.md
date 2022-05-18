@@ -11,4 +11,3 @@ Nota: Para la imagen umralizada se ha establecido un umbral de 240.
 
 Si al cargar la página no aparece la imagen modificada, volver a refrescar la página hasta que aparezca.
 
-Mejoras: -Umbralización
